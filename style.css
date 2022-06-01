@@ -1,0 +1,49 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+.flexbox {
+  display: flex;
+  padding: 10px 0;
+}
+
+#new-task {
+  width: 300px;
+  padding: 5px;
+}
+
+#add-task {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.trash-can {
+  max-height: 20px;
+  width: auto;
+}
+
+.list {
+  width: 600px;
+}
+
+.list-item {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item-text {
+  width: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+}
